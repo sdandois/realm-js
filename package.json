@@ -45,8 +45,9 @@
     "CMakeLists.txt"
   ],
   "scripts": {
-    "workspaces:lint": "npm run lint --workspaces --if-present --",
-    "workspaces:build": "npm run build --workspaces --if-present",
+    "turbo:lint": "turbo run lint",
+    "turbo:build": "turbo run build",
+    "turbo:test": "turbo run test",
     "lint": "eslint .",
     "get-version": "node -p process.env.npm_package_version",
     "set-version": "scripts/set-version.sh",
