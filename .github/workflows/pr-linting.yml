@@ -18,6 +18,6 @@ jobs:
       - name: Install root package dependencies
         run: npm ci
       - name: Run linting of subpackages
-        run: npm run workspaces:lint
+        run: npm run turbo:lint
       - name: Run linting of C++ code
         run: npm run lint:cpp
