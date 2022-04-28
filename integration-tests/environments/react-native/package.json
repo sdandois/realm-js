@@ -45,7 +45,7 @@
     "metro-react-native-babel-preset": "^0.66.2",
     "mocha-github-actions-reporter": "^0.2.3",
     "mocha-remote-cli": "^1.5.0",
-    "pod-install": "^0.1.23",
+    "pod-install": "^0.1.35",
     "puppeteer": "^9.0.0",
     "realm-app-importer": "*"
   }

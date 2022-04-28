@@ -48,6 +48,7 @@
     "turbo:lint": "turbo run lint",
     "turbo:build": "turbo run build",
     "turbo:test": "turbo run test",
+    "workspaces:remove-node-modules": "npm exec --workspaces -- npx rimraf node_modules",
     "lint": "eslint .",
     "get-version": "node -p process.env.npm_package_version",
     "set-version": "scripts/set-version.sh",
