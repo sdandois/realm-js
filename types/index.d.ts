@@ -277,7 +277,7 @@ declare namespace Realm {
         changedProperties: (keyof T)[]
     }
 
-    type ObjectChangeCallback<T> = (object: T, changes: ObjectChangeSet<T>) => void;
+    type ObjectChangeCallback<T> = (object: Object<T>, changes: ObjectChangeSet<T>) => void;
 
     /**
      * Object
