@@ -38,16 +38,12 @@ module.exports = {
       },
     ],
   },
-  node: {
-    fs: "empty",
-    // "bson" does a require("crypto")
-    crypto: "empty",
-  },
   resolve: {
     extensions: [".ts", ".js"],
     fallback: {
-      crypto: false,
       fs: false,
+      // "bson" does a require("crypto")
+      crypto: false,
     },
   },
   output: {

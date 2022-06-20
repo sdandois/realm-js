@@ -95,7 +95,7 @@ export async function run(devtools = false) {
     proxy: { "/api": baseUrl },
     historyApiFallback: true,
     static: {
-      directory: path.join(__dirname, "../node_modules/realm-web"),
+      directory: path.dirname(require.resolve("realm-web/package.json")),
       publicPath: "/realm-web",
     },
   });
